@@ -1,0 +1,36 @@
+{   
+
+	"name": "jmx/mini-framework",
+    "description": "Um mini framework em MVC",
+    "licence": "MIT",
+    "type": "project",
+    "authors": [
+    	
+    	{
+
+          "name": "carlinhos xavier", "email": "carlinhosjmx@gmail.com"    		
+    	}
+
+    ],
+
+       
+   "autoload" : {
+
+       "psr-4": {
+
+          "App\\" : "app/",
+          "Core\\" : "core/"
+
+       }
+
+
+   },
+
+   "require": {
+
+        "php": "^5.3.3 || ^7.0"
+        
+    }
+
+
+}
