@@ -27,8 +27,12 @@
   	  private function run(){
 
          $url = $this->getUrl();
+
+         echo "esta é a url ".$url."<br>";
          $urlArray = explode('/', $url);
-         var_dump($urlArray);
+    
+
+
 
          foreach($this->routes as $route){
               
